@@ -1,0 +1,9 @@
+before_script:
+  - apt-get update nodejs
+  - npm install
+
+rspec:
+  script:
+    - npm run test
+
+
