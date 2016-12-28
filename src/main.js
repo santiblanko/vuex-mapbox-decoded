@@ -1,12 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
-import About from './components/about'
 import store from './store/index'
 Vue.use(VueRouter)
 const routes = [
-  { path: '/', component: App },
-  { path: '/about', component: About }
+  { path: '/', component: App }
 ]
 
 const router = new VueRouter({
