@@ -15,10 +15,10 @@
 <script>
 import Vue from 'vue'
 import ElementUI from 'element-ui'
-import mapbox from './components/utils/mapbox'
-import options from './components/utils/options'
-import submenu from './components/utils/submenu'
-import navbar from './components/utils/navbar'
+import mapbox from './components/geobird/mapbox'
+import options from './components/geobird/options'
+import submenu from './components/geobird/submenu'
+import navbar from './components/geobird/navbar'
 import 'element-ui/lib/theme-default/index.css'
 import 'bootstrap/dist/css/bootstrap.css'
 Vue.use(ElementUI)
