@@ -1,8 +1,8 @@
 import Vuex from 'vuex'
 import Vue from 'vue'
-import options from './modules/options/index'
-import submenu from './modules/submenu/index'
-import share from './modules/share/index'
+import options from './modules/geobird/options/index'
+import submenu from './modules/geobird/submenu/index'
+import share from './modules/geobird/share/index'
 Vue.use(Vuex)
 
 var store = new Vuex.Store({
