@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import App from './App'
+import GeoBirdApp from './components/geobird/App'
 import store from './store/index'
 Vue.use(VueRouter)
 const routes = [
-  { path: '/', component: App }
+  { path: '/geobird', component: GeoBirdApp }
 ]
 
 const router = new VueRouter({
@@ -16,7 +16,7 @@ const router = new VueRouter({
 new Vue({
   router,
   components: {
-    App
+    GeoBirdApp
   },
   store
 }).$mount('#app')
