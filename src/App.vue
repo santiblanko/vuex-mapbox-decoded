@@ -19,8 +19,9 @@ import mapbox from './components/geobird/mapbox'
 import options from './components/geobird/options'
 import submenu from './components/geobird/submenu'
 import navbar from './components/geobird/navbar'
-import 'element-ui/lib/theme-default/index.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import vueInstant from 'vue-instant'
+//import 'element-ui/lib/theme-default/index.css'
+//import 'bootstrap/dist/css/bootstrap.css'
 Vue.use(ElementUI)
 
 export default {
@@ -28,7 +29,8 @@ export default {
     mapbox,
     options,
     submenu,
-    navbar
+    navbar,
+    vueInstant
   }
 }
 </script>
